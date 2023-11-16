@@ -28,12 +28,12 @@ header {
   align-items: center;
 }
 
-header .toggle {
+.toggle {
   font-size: 24px;
-  color: #5e5e5e;
+  color: #474747;
 }
 
-header nav {
+nav {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -42,20 +42,20 @@ header nav {
   align-items: flex-end;
 }
 
-header nav ul {
+nav ul {
   display: none;
   padding: 16px;
 }
 
-header nav ul li {
+nav ul li {
   list-style: none;
   margin: 0;
   padding: 16px;
 }
 
-header nav a {
+nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #474747;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -67,8 +67,8 @@ header nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #a1aeb7;
-  color: #fff;
+  background-color: #f5f5f5;
+  color: #474747;
   position: absolute;
   top: 10%;
   left: 0;
