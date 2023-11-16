@@ -18,6 +18,7 @@ body {
 body p {
   color: #a1aeb7;
   line-height: 2.4rem;
+  font-weight: 300;
 }
 
 body h2 {
@@ -156,7 +157,7 @@ nav a {
   flex-direction: column;
   padding: 48px 32px;
   text-align: left;
-  background-color: #f8f8f8;
+  background-color: #e7f5fe;
 }
 
 .ourchurch-container h2 {
@@ -221,4 +222,55 @@ nav a {
   border-radius: 8px;
   color: #424b5a;
   margin: 32px;
+}
+
+/* FOOTER -------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  gap: 16px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin: 16px;
+}
+
+footer h4 {
+  color: #424b5a;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.info-container {
+  margin: 16px;
+}
+
+.info-container p {
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.content-container a {
+  color: #a1aeb7;
+}
+
+.location-container {
+  font-size: 1.4rem;
+  margin: 0 16px;
+}
+
+.location-container p {
+  margin: 16px 0;
+}
+
+.rights {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 32px;
 }
