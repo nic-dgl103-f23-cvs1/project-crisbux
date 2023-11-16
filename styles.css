@@ -17,6 +17,7 @@ body {
 
 body p {
   color: #a1aeb7;
+  line-height: 2.4rem;
 }
 
 header {
@@ -83,7 +84,7 @@ nav a {
   text-align: center;
   width: 100%;
   padding: 80px 40px;
-  background-image: url("images/sunrise.jpg");
+  background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
   background-position: cover;
   background-size: cover;
 }
@@ -142,7 +143,6 @@ nav a {
 .container p {
   margin: 16px 0;
   font-weight: 300;
-  line-height: 2.4rem;
 }
 
 /* CHRISTIANS ONLY -------*/
@@ -151,13 +151,14 @@ nav a {
   display: flex;
   flex-direction: column;
   margin: 16px 0;
-  padding: 32px;
+  padding: 48px 32px;
   text-align: left;
   background-color: #f8f8f8;
 }
 
 .ourchurch-container h2 {
   text-align: center;
+  margin: 16px;
 }
 
 .container-item {
@@ -185,6 +186,5 @@ nav a {
 
 .container-item p {
   margin: 16px 0;
-  line-height: 2.4rem;
   font-weight: 300;
 }
