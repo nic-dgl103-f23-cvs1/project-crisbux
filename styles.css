@@ -20,6 +20,10 @@ body p {
   line-height: 2.4rem;
 }
 
+body h2 {
+  color: #4d4d4d;
+}
+
 header {
   background-color: #e7f5fe;
   padding: 12px 16px;
@@ -145,12 +149,11 @@ nav a {
   font-weight: 300;
 }
 
-/* CHRISTIANS ONLY -------*/
+/* OUR CHURCH -------*/
 
 .ourchurch-container {
   display: flex;
   flex-direction: column;
-  margin: 16px 0;
   padding: 48px 32px;
   text-align: left;
   background-color: #f8f8f8;
@@ -187,4 +190,35 @@ nav a {
 .container-item p {
   margin: 16px 0;
   font-weight: 300;
+}
+
+
+/* GET IN TOUCH -------*/
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #424b5a;
+  padding: 32px 0;
+}
+
+.contact-container h2{
+  margin: 16px;
+  color: #ffffff;
+}
+
+.contact-container p {
+  margin: 16px 32px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.contact-container a {
+  padding: 12px 32px;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #424b5a;
+  margin: 32px;
 }
