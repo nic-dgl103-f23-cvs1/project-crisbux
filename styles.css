@@ -229,8 +229,9 @@ nav a {
 footer {
   display: flex;
   flex-direction: column;
-  padding: 32px 16px;
+  padding: 48px 0;
   gap: 16px;
+  text-align: left;
 }
 
 footer ul {
@@ -238,7 +239,7 @@ footer ul {
 }
 
 footer li {
-  margin: 16px;
+  margin: 16px 32px;
 }
 
 footer h4 {
@@ -247,8 +248,13 @@ footer h4 {
   margin-bottom: 8px;
 }
 
+footer img {
+  width: 100%;
+padding: 0 16px;
+}
+
 .info-container {
-  margin: 16px;
+  margin: 16px 32px;
 }
 
 .info-container p {
@@ -258,11 +264,12 @@ footer h4 {
 
 .content-container a {
   color: #a1aeb7;
+  font-weight: 300;
 }
 
 .location-container {
   font-size: 1.4rem;
-  margin: 0 16px;
+  margin: 0 32px;
 }
 
 .location-container p {
