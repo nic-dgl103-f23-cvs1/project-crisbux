@@ -371,10 +371,14 @@ body h2 {
 
 /* OUR CHURCH -------*/
 
+.ourchurch-container {
+  padding: 104px 80px;
+}
+
 .options-container {
   display: flex;
   flex-direction: row;
-  gap: 32px;
+  gap: 40px;
 }
 
 .ourchurch-container h2 {
