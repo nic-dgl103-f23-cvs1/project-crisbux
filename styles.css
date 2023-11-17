@@ -10,7 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Lato', sans-serif;
   width: 100%;
   min-width: 0%;
 }
@@ -27,7 +27,7 @@ body h2 {
 
 header {
   background-color: #e7f5fe;
-  padding: 12px 16px;
+  padding: 16px 16px;
   color: #505d68;
   display: flex;
   justify-content: space-around;
@@ -102,16 +102,13 @@ nav a {
   margin-bottom: 48px;
 }
 
-
 .hero p {
-  font-weight: 300;
   font-style: italic;
   color: #ffffff;
   font-size: 2.1rem;
   line-height: 3.1rem;
   margin: 32px 0;
 }
-
 
 .hero a {
   font-size: 1.2rem;
@@ -123,8 +120,6 @@ nav a {
   text-decoration: none;
 }
 
-
-
 /* CHRISTIANS ONLY -------*/
 
 .container {
@@ -135,7 +130,7 @@ nav a {
   text-align: left;
 }
 
-.container h2 {
+.content-container h2 {
   text-align: center;
   margin: 16px;
 }
@@ -145,7 +140,7 @@ nav a {
   margin: 16px 0;
 }
 
-.container p {
+.content-container p {
   margin: 16px 0;
   font-weight: 300;
 }
@@ -175,7 +170,6 @@ nav a {
 
 .card-link {
   text-decoration: none;
-  background-color: #ffffff;
 }
 
 .container-item img {
@@ -193,18 +187,17 @@ nav a {
   font-weight: 300;
 }
 
-
 /* GET IN TOUCH -------*/
 
 .contact-container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #424b5a;
+  background-color: #5CA0D3;
   padding: 32px 0;
 }
 
-.contact-container h2{
+.contact-container h2 {
   margin: 16px;
   color: #ffffff;
 }
@@ -250,7 +243,7 @@ footer h4 {
 
 footer img {
   width: 100%;
-padding: 0 16px;
+  padding: 0 16px;
 }
 
 .info-container {
@@ -280,4 +273,116 @@ padding: 0 16px;
   font-size: 1.2rem;
   text-align: center;
   margin-bottom: 32px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+
+  header {
+    justify-content: center;
+    padding: 16px 124px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+  nav {
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  nav .toggle {
+    display: none;
+  }
+
+  nav a {
+    color: #505d68;
+  }
+
+  #nav-items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+
+/* HERO -------*/
+
+.hero h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.hero p {
+  font-size: 2.4rem;
+  font-weight: 300;
+  padding: 32px 104px;
+}
+
+/* CHRISTIANS ONLY -------*/
+
+body h2 {
+  font-size: 3.2rem;
+}
+
+.container {
+  padding: 72px 104px;
+}
+
+.list-item a {
+  font-size: 1.6rem;
+}
+
+.content-container {
+  display: flex;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 16px;
+  font-size: 3.2rem;
+}
+
+.container img {
+  width: 50%;
+}
+
+.container .content-container {
+  padding: 32px 0;
+  font-size: 1.8rem;
+}
+
+.container .content-container p {
+  margin: 16px 32px;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.text-container {
+  padding: 32px 16px;
+}
+
+/* OUR CHURCH -------*/
+
+.options-container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.ourchurch-container h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+
+
+/* BE CAREFULL WHIT THIS CLOSE -------*/
 }
