@@ -10,7 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   width: 100%;
   min-width: 0%;
 }
@@ -193,27 +193,26 @@ nav a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: #5CA0D3;
   padding: 32px 0;
 }
 
 .contact-container h2 {
   margin: 16px;
-  color: #ffffff;
+  color: #424b5a;
 }
 
 .contact-container p {
   margin: 16px 32px;
   font-weight: 300;
-  color: #ffffff;
+  color: #a1aeb7;
 }
 
 .contact-container a {
   padding: 12px 32px;
-  background-color: white;
+  background-color: #424b5a;
   text-decoration: none;
   border-radius: 8px;
-  color: #424b5a;
+  color: white;
   margin: 32px;
 }
 
@@ -222,9 +221,10 @@ nav a {
 footer {
   display: flex;
   flex-direction: column;
-  padding: 48px 0;
+  padding: 48px 0 8px 0;
   gap: 16px;
   text-align: left;
+  background-color: #5ca0d3;
 }
 
 footer ul {
@@ -253,10 +253,11 @@ footer img {
 .info-container p {
   margin-bottom: 24px;
   font-weight: 300;
+  color: #ffffff;
 }
 
 .content-container a {
-  color: #a1aeb7;
+  color: white;
   font-weight: 300;
 }
 
@@ -267,12 +268,14 @@ footer img {
 
 .location-container p {
   margin: 16px 0;
+  color: #ffffff;
 }
 
 .rights {
   font-size: 1.2rem;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
+  color: #ffffff;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -280,15 +283,15 @@ footer img {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-
   header {
     justify-content: center;
-    padding: 16px 124px;
+    padding: 0 180px;
   }
 
   .logo {
     width: 200px;
   }
+
   nav {
     padding-top: 0;
     justify-content: center;
@@ -311,145 +314,143 @@ footer img {
     gap: 30px;
   }
 
+  .list-item a {
+    font-size: 1.4rem;
+  }
 
-/* HERO -------*/
+  /* HERO -------*/
 
-.hero h1 {
-  font-size: 4.8rem;
-  font-weight: 700;
-  margin-bottom: 48px;
-}
+  .hero h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
 
-.hero p {
-  font-size: 2.4rem;
-  font-weight: 300;
-  padding: 32px 104px;
-}
+  .hero p {
+    font-size: 2.4rem;
+    font-weight: 300;
+    padding: 32px 104px;
+  }
 
-/* CHRISTIANS ONLY -------*/
+  /* CHRISTIANS ONLY -------*/
 
-body h2 {
-  font-size: 3.2rem;
-}
+  body h2 {
+    font-size: 3.2rem;
+  }
 
-.container {
-  padding: 72px 104px;
-}
+  .container {
+    padding: 72px 104px;
+  }
 
-.list-item a {
-  font-size: 1.6rem;
-}
+  .content-container {
+    display: flex;
+  }
 
-.content-container {
-  display: flex;
-}
+  .container h2 {
+    text-align: center;
+    margin: 16px;
+    font-size: 3.2rem;
+  }
 
-.container h2 {
-  text-align: center;
-  margin: 16px;
-  font-size: 3.2rem;
-}
+  .container img {
+    width: 50%;
+  }
 
-.container img {
-  width: 50%;
-}
+  .container .content-container {
+    padding: 32px 0;
+    font-size: 1.8rem;
+  }
 
-.container .content-container {
-  padding: 32px 0;
-  font-size: 1.8rem;
-}
+  .container .content-container p {
+    margin: 16px 32px;
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
 
-.container .content-container p {
-  margin: 16px 32px;
-  font-size: 1.8rem;
-  line-height: 3rem;
-}
+  .text-container {
+    padding: 32px 16px;
+  }
 
-.text-container {
-  padding: 32px 16px;
-}
+  /* OUR CHURCH -------*/
 
-/* OUR CHURCH -------*/
+  .ourchurch-container {
+    padding: 80px;
+  }
 
-.ourchurch-container {
-  padding: 80px;
-}
+  .options-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
 
-.options-container {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
+  .ourchurch-container h2 {
+    text-align: center;
+    margin: 16px;
+    padding: 32px 0;
+  }
 
-.ourchurch-container h2 {
-  text-align: center;
-  margin: 16px;
-  padding: 32px 0;
-}
+  .container-item {
+    padding: 24px;
+    margin: 0;
+    width: 100%;
+  }
 
-.container-item {
-  padding: 24px;
-  margin: 0;
-  width: 100%;
-}
+  .container-item p {
+    font-size: 1.8rem;
+  }
 
-.container-item p {
-  font-size: 1.8rem;
-}
+  /* GET IN TOUCH -------*/
 
-/* GET IN TOUCH -------*/
+  .contact-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 72px 0;
+  }
 
-.contact-container {
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 72px 0;
-}
+  .contact-container p {
+    margin: 8px 16px;
+    font-size: 1.8rem;
+  }
 
-.contact-container p {
-  margin: 8px 16px;
-  font-size: 1.8rem;
-}
+  .contact-text {
+    text-align: left;
+  }
 
-.contact-text {
-  text-align: left;
-}
+  .contact-container a {
+    padding: 16px 72px;
+  }
 
-.contact-container a {
-  padding: 16px 72px;
-}
+  /* FOOTER -------*/
 
-/* FOOTER -------*/
+  footer {
+    padding: 0;
+    gap: 0;
+  }
 
-footer {
-  padding: 0;
-  padding-top: 16px;
-}
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 48px 0;
+    text-align: left;
+    align-items: flex-start;
+  }
 
-.footer-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 48px 0 16px;
-  text-align: left;
-  align-items: flex-start;
-}
+  .footer-container img {
+    width: 25%;
+  }
 
-.footer-container img {
-  width: 35%;
-  padding: 0 0px 0 32px;
-}
+  .info-container {
+    margin: 0 32px;
+  }
 
-.info-container {
-  margin: 0 32px;
-}
+  .rights {
+    font-size: 1.4rem;
+    padding: 8px;
+  }
 
-.rights {
-  font-size: 1.4rem;
-}
-
-.list-container a {
-  text-decoration: none;
-}
-
+  .list-container a {
+    text-decoration: none;
+  }
 }
