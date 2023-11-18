@@ -372,7 +372,7 @@ body h2 {
 /* OUR CHURCH -------*/
 
 .ourchurch-container {
-  padding: 104px 80px;
+  padding: 80px;
 }
 
 .options-container {
@@ -384,9 +384,40 @@ body h2 {
 .ourchurch-container h2 {
   text-align: center;
   margin: 16px;
+  padding: 32px 0;
 }
 
+.container-item {
+  padding: 24px;
+  margin: 0;
+  width: 100%;
+}
 
+.container-item p {
+  font-size: 1.8rem;
+}
+
+/* GET IN TOUCH -------*/
+
+.contact-container {
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 72px 0;
+}
+
+.contact-container p {
+  margin: 16px;
+  font-size: 1.8rem;
+}
+
+.contact-text {
+  text-align: left;
+}
+
+.contact-container a {
+  padding: 16px 72px;
+}
 
 /* BE CAREFULL WHIT THIS CLOSE -------*/
 }
