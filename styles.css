@@ -90,7 +90,6 @@ nav a {
   width: 100%;
   padding: 80px 40px;
   background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
-  background-position: cover;
   background-size: cover;
 }
 
