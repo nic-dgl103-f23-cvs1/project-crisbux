@@ -94,6 +94,7 @@ nav a {
   text-align: center;
   width: 100%;
   padding: 80px 40px;
+  margin: auto;
   background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
   background-size: cover;
 }
@@ -283,6 +284,98 @@ footer img {
   color: #ffffff;
 }
 
+
+
+/* ----------------
+ABOUT US PAGE
+------------------- */
+
+/* WHY CHURCH OF CHRIST... -------*/
+
+.why-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 16px;
+  padding: 16px;
+}
+
+.why-content h2 {
+  margin: 16px;
+}
+
+.why-container img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.why-content p {
+  font-weight: 300;
+  padding: 12px 0;
+}
+
+
+/* DENOMINATION -------*/
+
+.denomination-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7f5fe;
+  margin: 16px 0;
+  padding: 32px;
+  text-align: left;
+}
+
+.denomination-container h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.denomination-container img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.content-container p {
+  margin: 16px 0;
+  font-weight: 300;
+}
+
+
+/* MEMBERS -------*/
+
+.members-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.members-container h2 {
+  margin: 16px;
+  color: #424b5a;
+}
+
+.members-container p {
+  margin: 16px 32px;
+  font-weight: 300;
+  color: #a1aeb7;
+}
+
+.members-container a {
+  padding: 12px 32px;
+  background-color: #424b5a;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+  margin: 32px;
+}
+
+
+
+
+
+
 /* ------------------------------------------------------------------------- */
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -368,7 +461,6 @@ footer img {
 
   .container .content-container p {
     margin: 16px 32px;
-    font-size: 1.8rem;
     line-height: 3rem;
   }
 
@@ -458,13 +550,31 @@ footer img {
   .list-container a {
     text-decoration: none;
   }
-}
-
-
 
 /* ----------------
-ABOUT US 
+ABOUT US PAGE
 ------------------- */
+
+/* WHY CHURCH OF CHRIST... -------*/
+
+.why-container {
+  padding: 32px;
+}
+
+.why-container h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.why-content img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.content-container p {
+  margin: 16px 0;
+  font-weight: 300;
+}
 
 /* DENOMINATION -------*/
 
@@ -521,3 +631,11 @@ ABOUT US
   color: white;
   margin: 32px;
 }
+
+
+
+/* watch out with this close... -------*/
+}
+
+
+
