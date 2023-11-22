@@ -549,8 +549,10 @@ ABOUT US PAGE
   }
 
   /* ----------------
-ABOUT US PAGE /* Large devices (laptops/desktops, 992px and up) */
+ABOUT US PAGE 
+Large devices (laptops/desktops, 992px and up) 
 ------------------- */
+
 
   /* WHY CHURCH OF CHRIST... -------*/
 
@@ -576,6 +578,7 @@ ABOUT US PAGE /* Large devices (laptops/desktops, 992px and up) */
 
   .content-container p {
     margin: 16px 0;
+    font-size: 1.8rem;
     font-weight: 300;
   }
 
@@ -605,6 +608,7 @@ ABOUT US PAGE /* Large devices (laptops/desktops, 992px and up) */
   .content-container p {
     margin: 16px 0;
     font-weight: 300;
+    font-size: 1.8rem;
   }
 
   /* MEMBERS -------*/
@@ -613,7 +617,7 @@ ABOUT US PAGE /* Large devices (laptops/desktops, 992px and up) */
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 32px;
+    padding: 80px;
     margin: auto;
   }
 
@@ -624,7 +628,7 @@ ABOUT US PAGE /* Large devices (laptops/desktops, 992px and up) */
 
   .members-container p {
     margin: 16px 32px;
-    padding: 16px 198px;
+    padding: 32px 128px;
     font-weight: 300;
     color: #a1aeb7;
   }
