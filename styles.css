@@ -288,6 +288,10 @@ footer img {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
+  body h2 {
+    font-size: 3.2rem;
+  }
+  
   header {
     justify-content: center;
     padding: 0 180px;
@@ -339,11 +343,7 @@ footer img {
 
   /* CHRISTIANS ONLY -------*/
 
-  body h2 {
-    font-size: 3.2rem;
-  }
-
-  .container {
+   .container {
     padding: 72px 104px;
   }
 
@@ -465,6 +465,35 @@ footer img {
 /* ----------------
 ABOUT US 
 ------------------- */
+
+/* DENOMINATION -------*/
+
+.denomination-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7f5fe;
+  margin: 16px 0;
+  padding: 32px;
+  text-align: left;
+}
+
+.denomination-container h2 {
+  text-align: center;
+  margin: 16px;
+}
+
+.denomination-container img {
+  width: 100%;
+  margin: 16px 0;
+}
+
+.content-container p {
+  margin: 16px 0;
+  font-weight: 300;
+}
+
+
+/* MEMBERS -------*/
 
 .members-container {
   display: flex;
