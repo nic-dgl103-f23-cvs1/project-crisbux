@@ -297,8 +297,9 @@ ABOUT US PAGE
   padding: 16px;
 }
 
-.why-content h2 {
-  margin: 16px;
+.why-container h1 {
+  text-align: center;
+  margin: 32px 0;
 }
 
 .why-container img {
@@ -307,13 +308,13 @@ ABOUT US PAGE
 }
 
 .why-content p {
-  font-weight: 300;
   padding: 12px 0;
 }
 
-.verse {
+.why-content .verse {
   font-style: italic;
   text-align: center;
+  font-weight: bold;
 }
 
 /* DENOMINATION -------*/
