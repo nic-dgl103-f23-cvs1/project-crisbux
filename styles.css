@@ -94,7 +94,6 @@ nav a {
   text-align: center;
   width: 100%;
   padding: 80px 40px;
-  margin: auto;
   background-image: url("images/sunrise.jpg"); /* Photo by Ravi Pinisetti on Unsplash */
   background-size: cover;
 }
@@ -312,6 +311,11 @@ ABOUT US PAGE
 .why-content p {
   font-weight: 300;
   padding: 12px 0;
+}
+
+.verse {
+  font-style: italic;
+  text-align: center;
 }
 
 
@@ -565,9 +569,15 @@ ABOUT US PAGE
   text-align: center;
   margin: 16px;
 }
+.why-content {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 48px;
+  gap: 32px;
+}
 
 .why-content img {
-  width: 100%;
+  width: 50%;
   margin: 16px 0;
 }
 
