@@ -148,6 +148,10 @@ nav a:hover {
   margin: 16px 0;
 }
 
+.text-container {
+  font-size: 1.6rem;
+}
+
 .content-container p {
   margin: 16px 0;
   font-weight: 300;
@@ -507,7 +511,14 @@ OUR FOUNDATIONS
   .hero p {
     font-size: 2.4rem;
     font-weight: 300;
-    padding: 32px 104px;
+    padding: 32px;
+    margin: auto;
+  }
+
+  .text-container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 88px;
   }
 
   /* CHRISTIANS ONLY -------*/
@@ -518,6 +529,9 @@ OUR FOUNDATIONS
 
   .content-container {
     display: flex;
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
   }
 
   .container h2 {
@@ -532,17 +546,17 @@ OUR FOUNDATIONS
 
   .container .content-container {
     padding: 32px 0;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .container .content-container p {
     margin: 16px 32px;
     line-height: 3rem;
+    margin: 16px 32px;
+    font-weight: 300;
+    font-size: 1.6rem;
   }
 
-  .text-container {
-    padding: 32px 16px;
-  }
 
   /* OUR CHURCH -------*/
 
@@ -569,6 +583,7 @@ OUR FOUNDATIONS
     margin: auto;
     max-width: 300px;
   }
+
 
   /* GET IN TOUCH -------*/
 
@@ -655,12 +670,6 @@ Large devices (laptops/desktops, 992px and up)
     margin: 16px 0;
   }
 
-  .content-container p {
-    margin: 16px 0;
-    font-size: 1.8rem;
-    font-weight: 300;
-  }
-
   /* DENOMINATION -------*/
 
   .denomination-container {
@@ -683,13 +692,6 @@ Large devices (laptops/desktops, 992px and up)
     gap: 32px;
     padding: 32px 48px;
   }
-
-  .content-container p {
-    margin: 16px 0;
-    font-weight: 300;
-    font-size: 1.8rem;
-  }
-
 
   /* WORSHIP ITEMS -------*/
 
