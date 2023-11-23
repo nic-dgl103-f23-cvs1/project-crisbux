@@ -334,7 +334,6 @@ ABOUT US PAGE
 
 .denomination-container {
   background-color: #e7f5fe;
-  margin: 16px 0;
   padding: 48px 32px;
 }
 
@@ -349,7 +348,6 @@ ABOUT US PAGE
 
 .denomination-content img {
   width: 100%;
-  margin: 16px 0;
 }
 
 .denomination-content p {
@@ -429,6 +427,9 @@ OUR FOUNDATIONS
 ------------------- */
 
 /* WHY CHURCH OF CHRIST... -------*/
+
+
+
 
 /* ------------------------------------------------------------------------- */
 
@@ -669,6 +670,45 @@ Large devices (laptops/desktops, 992px and up)
     font-weight: 300;
     font-size: 1.8rem;
   }
+
+
+  /* WORSHIP ITEMS -------*/
+
+.worship-container {
+  padding: 56px;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.worship-container h2 {
+  padding: 32px;
+  text-align: center;
+}
+
+.worship-content {
+  flex-direction: row;
+  gap: 32px;
+}
+
+.worship-content img {
+  width: 50%;
+  margin: 16px 0;
+}
+
+.worship-content p {
+  margin: 16px 0;
+  font-weight: 300;
+  text-align: left;
+}
+
+.statements {
+  margin: 24px;
+  color: #a1aeb7;
+  font-weight: 300;
+  line-height: 2.8rem;
+}
+
+
 
   /* MEMBERS -------*/
 
