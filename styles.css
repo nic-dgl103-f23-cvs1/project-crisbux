@@ -466,11 +466,12 @@ CONTACT
   border-radius: 8px;
   padding: 32px;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 24px auto;
+  color: #424b5a;
 }
 
 .wrapper-form h2 {
-  margin: 32px 0;
+  margin-bottom: 16px;
 }
 
 .wrapper-button {
@@ -478,11 +479,11 @@ CONTACT
   justify-content: space-between;
 }
 
-/* Inputs -------*/
+/* Buttons -------*/
 
 input[type="reset"] {
   color: #424b5a;
-  padding: 16px 32px;
+  padding: 8px 32px;
   border-radius: 4px;
   border: 2px solid #424b5a;
   cursor: pointer;
@@ -496,7 +497,7 @@ input[type="reset"]:hover {
 input[type="submit"] {
   background-color: #424b5a;
   color: white;
-  padding: 16px 32px;
+  padding: 8px 32px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -506,20 +507,18 @@ input[type="submit"]:hover {
   border: 2px solid #2980b9;
 }
 
-/* Controls -------*/
+/* Inputs -------*/
 
 input,
-select,
 textarea {
   font-size: 1.6rem;
 }
 
 input[type="text"],
-select,
 textarea {
   width: 100%;
   padding: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #424b5a;
   border-radius: 4px;
   margin-top: 8px;
   margin-bottom: 16px;
@@ -529,7 +528,7 @@ textarea {
 input[type="email"] {
   width: 100%;
   padding: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #424b5a;
   border-radius: 4px;
   margin-top: 8px;
   margin-bottom: 16px;
