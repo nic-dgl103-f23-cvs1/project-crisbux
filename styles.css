@@ -476,10 +476,10 @@ CONTACT
 
 .wrapper-button {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
-/* Buttons -------*/
+/* Buttons -------
 
 input[type="reset"] {
   color: #424b5a;
@@ -493,6 +493,7 @@ input[type="reset"]:hover {
   background-color: #424b5a;
   color: #ffffff;
 }
+*/
 
 input[type="submit"] {
   background-color: #424b5a;
@@ -541,7 +542,7 @@ textarea {
 
 fieldset {
   margin-bottom: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #424b5a;
 }
 
 .label-required {
@@ -713,9 +714,12 @@ Large devices (laptops/desktops, 992px and up)
   .images-container {
     max-width: 300px;
   }
-
+  footer li {
+    margin: 0 32px 24px;
+  }
+  
   .images-container img {
-    margin: 8px 0;
+    margin: 0 0 16px;
     border-radius: 8px;
   }
 
