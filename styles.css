@@ -588,7 +588,7 @@ Large devices (laptops/desktops, 992px and up)
     flex-direction: row;
     max-width: 1170px;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 72px 0;
   }
@@ -615,9 +615,10 @@ Large devices (laptops/desktops, 992px and up)
   .images-container {
     max-width: 300px;
   }
-  
+
   .images-container img {
-    width: 60%;
+    margin: 8px 0;
+    border-radius: 8px;
   }
 
   .footer-container {
