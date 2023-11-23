@@ -265,9 +265,9 @@ footer {
   flex-direction: column;
 }
 
-.footer-container{
+.footer-container {
   padding-bottom: 32px;
- }
+}
 
 .images-container img {
   margin: 16px 32px;
@@ -456,6 +456,105 @@ OUR FOUNDATIONS
 
 /* WHY CHURCH OF CHRIST... -------*/
 
+/* ====================
+CONTACT
+==================== */
+
+/* FORM -------*/
+
+.wrapper-form {
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-form h2 {
+  margin: 32px 0;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Inputs -------*/
+
+input[type="reset"] {
+  color: #424b5a;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: 2px solid #424b5a;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #424b5a;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  background-color: #424b5a;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+  border: 2px solid #2980b9;
+}
+
+/* Controls -------*/
+
+input,
+select,
+textarea {
+  font-size: 1.6rem;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: "Lato", sans-serif;
+}
+
+fieldset {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+}
+
+.label-required {
+  font-size: 1.4rem;
+  padding: 0 8px;
+  color: red;
+}
+
+input:required {
+  border: 1px solid red;
+}
+
 /* ============================================================
 
 Large devices (laptops/desktops, 992px and up) 
@@ -525,8 +624,8 @@ Large devices (laptops/desktops, 992px and up)
   /* CHRISTIANS ONLY -------*/
 
   .container {
-   max-width: 1170px;
-   margin: auto;
+    max-width: 1170px;
+    margin: auto;
   }
 
   .content-container {
@@ -611,7 +710,7 @@ Large devices (laptops/desktops, 992px and up)
   footer {
     padding: 0;
   }
-  
+
   .images-container {
     max-width: 300px;
   }
