@@ -621,6 +621,8 @@ Large devices (laptops/desktops, 992px and up)
     margin: 16px;
   }
   .why-content {
+    max-width: 1170px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     padding: 32px 48px;
