@@ -16,7 +16,7 @@ body {
 }
 
 body p {
-  color: #a1aeb7;
+  color: #8e979e;
   line-height: 2.4rem;
   font-weight: 300;
 }
@@ -138,18 +138,18 @@ nav a:hover {
   text-align: left;
 }
 
-.content-container h2 {
-  text-align: center;
-  margin: 16px;
-}
-
 .container img {
   width: 100%;
   margin: 16px 0;
 }
 
-.text-container {
+.text-only {
   font-size: 1.6rem;
+}
+
+.content-container h2 {
+  text-align: center;
+  margin: 16px;
 }
 
 .content-container p {
@@ -255,11 +255,22 @@ nav a:hover {
 footer {
   display: flex;
   flex-direction: column;
-  margin: auto;
-  padding: 48px 0 8px 0;
-  gap: 16px;
-  text-align: left;
   background-color: #5ca0d3;
+  padding: 48px 0 8px;
+  text-align: left;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container{
+  padding-bottom: 32px;
+ }
+
+.images-container img {
+  margin: 16px 32px;
 }
 
 footer ul {
@@ -276,13 +287,8 @@ footer h4 {
   margin-bottom: 8px;
 }
 
-footer img {
-  width: 100%;
-  padding: 0 16px;
-}
-
 .info-container {
-  margin: 16px 32px;
+  margin: 32px;
 }
 
 .info-container p {
@@ -291,12 +297,12 @@ footer img {
   color: #ffffff;
 }
 
-.content-container a {
+.footer-content a {
   color: white;
   font-weight: 300;
 }
 
-.content-container a:hover {
+.footer-content a:hover {
   text-decoration: underline;
 }
 
@@ -317,9 +323,9 @@ footer img {
   color: #ffffff;
 }
 
-/* ----------------
+/* =======================
 ABOUT US PAGE
-------------------- */
+======================= */
 
 /* WHY CHURCH OF CHRIST... -------*/
 
@@ -347,7 +353,6 @@ ABOUT US PAGE
 
 .why-content .verse {
   font-style: italic;
-  text-align: left;
 }
 
 /* DENOMINATION -------*/
@@ -375,7 +380,6 @@ ABOUT US PAGE
   font-weight: 300;
   text-align: left;
 }
-
 
 /* WORSHIP ITEMS -------*/
 
@@ -410,7 +414,6 @@ ABOUT US PAGE
   font-weight: 300;
   line-height: 2.8rem;
 }
-
 
 /* MEMBERS -------*/
 
@@ -447,18 +450,17 @@ ABOUT US PAGE
   color: #eaeaea;
 }
 
-/* ----------------
+/* ====================
 OUR FOUNDATIONS
-------------------- */
+==================== */
 
 /* WHY CHURCH OF CHRIST... -------*/
 
+/* ============================================================
 
+Large devices (laptops/desktops, 992px and up) 
 
-
-/* ------------------------------------------------------------------------- */
-
-/* Large devices (laptops/desktops, 992px and up) */
+============================================================ */
 
 @media only screen and (min-width: 992px) {
   body h2 {
@@ -518,19 +520,17 @@ OUR FOUNDATIONS
   .text-container {
     max-width: 1170px;
     margin: auto;
-    padding: 0 88px;
   }
 
   /* CHRISTIANS ONLY -------*/
 
   .container {
-    padding: 72px 104px;
+   max-width: 1170px;
+   margin: auto;
   }
 
   .content-container {
     display: flex;
-    max-width: 1170px;
-    margin: auto;
     align-items: center;
   }
 
@@ -552,11 +552,9 @@ OUR FOUNDATIONS
   .container .content-container p {
     margin: 16px 32px;
     line-height: 3rem;
-    margin: 16px 32px;
     font-weight: 300;
     font-size: 1.6rem;
   }
-
 
   /* OUR CHURCH -------*/
 
@@ -584,11 +582,12 @@ OUR FOUNDATIONS
     max-width: 300px;
   }
 
-
   /* GET IN TOUCH -------*/
 
   .contact-container {
     flex-direction: row;
+    max-width: 1170px;
+    margin: auto;
     justify-content: space-evenly;
     align-items: center;
     padding: 72px 0;
@@ -611,20 +610,29 @@ OUR FOUNDATIONS
 
   footer {
     padding: 0;
-    gap: 0;
+  }
+  
+  .images-container {
+    max-width: 300px;
+  }
+  
+  .images-container img {
+    width: 60%;
   }
 
   .footer-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 1170px;
+    margin: auto;
     padding: 48px 0;
     text-align: left;
     align-items: flex-start;
   }
 
-  .footer-container img {
-    width: 25%;
+  .content-container {
+    margin: 0;
   }
 
   .info-container {
@@ -695,41 +703,39 @@ Large devices (laptops/desktops, 992px and up)
 
   /* WORSHIP ITEMS -------*/
 
-.worship-container {
-  padding: 56px;
-  max-width: 1170px;
-  margin: auto;
-}
+  .worship-container {
+    padding: 56px;
+    max-width: 1170px;
+    margin: auto;
+  }
 
-.worship-container h2 {
-  padding: 32px;
-  text-align: center;
-}
+  .worship-container h2 {
+    padding: 32px;
+    text-align: center;
+  }
 
-.worship-content {
-  flex-direction: row;
-  gap: 32px;
-}
+  .worship-content {
+    flex-direction: row;
+    gap: 32px;
+  }
 
-.worship-content img {
-  width: 50%;
-  margin: 16px 0;
-}
+  .worship-content img {
+    width: 50%;
+    margin: 16px 0;
+  }
 
-.worship-content p {
-  margin: 16px 0;
-  font-weight: 300;
-  text-align: left;
-}
+  .worship-content p {
+    margin: 16px 0;
+    font-weight: 300;
+    text-align: left;
+  }
 
-.statements {
-  margin: 24px;
-  color: #a1aeb7;
-  font-weight: 300;
-  line-height: 2.8rem;
-}
-
-
+  .statements {
+    margin: 24px;
+    color: #a1aeb7;
+    font-weight: 300;
+    line-height: 2.8rem;
+  }
 
   /* MEMBERS -------*/
 
