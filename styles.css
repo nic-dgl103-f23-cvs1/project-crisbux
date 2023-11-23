@@ -515,6 +515,7 @@ textarea {
   font-size: 1.6rem;
 }
 
+
 input[type="text"],
 textarea {
   width: 100%;
@@ -551,9 +552,6 @@ fieldset {
   color: red;
 }
 
-input:required {
-  border: 1px solid red;
-}
 
 /* ============================================================
 
@@ -717,7 +715,7 @@ Large devices (laptops/desktops, 992px and up)
   footer li {
     margin: 0 32px 24px;
   }
-  
+
   .images-container img {
     margin: 0 0 16px;
     border-radius: 8px;
