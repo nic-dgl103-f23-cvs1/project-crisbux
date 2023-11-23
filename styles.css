@@ -69,6 +69,10 @@ nav a {
   list-style: none;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 .currently {
   text-decoration: underline;
   font-weight: 700;
@@ -178,6 +182,10 @@ nav a {
   margin: auto;
 }
 
+.card-link:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .container-item img {
   width: 100%;
   margin: 16px 0;
@@ -234,6 +242,11 @@ nav a {
   margin: 32px;
 }
 
+.contact-container a:hover {
+  background-color: #2980b9;
+  color: #eaeaea;
+}
+
 /* FOOTER -------*/
 
 footer {
@@ -278,6 +291,10 @@ footer img {
 .content-container a {
   color: white;
   font-weight: 300;
+}
+
+.content-container a:hover {
+  text-decoration: underline;
 }
 
 .location-container {
@@ -420,6 +437,11 @@ ABOUT US PAGE
   border-radius: 8px;
   color: white;
   margin: 32px;
+}
+
+.members-container a:hover {
+  background-color: #2980b9;
+  color: #eaeaea;
 }
 
 /* ----------------
