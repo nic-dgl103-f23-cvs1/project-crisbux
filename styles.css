@@ -198,7 +198,6 @@ nav a:hover {
 
 .container-item p {
   margin: 24px 0;
-  font-weight: 320px;
 }
 
 .fa-plus-square-o {
@@ -548,13 +547,15 @@ OUR FOUNDATIONS
   /* OUR CHURCH -------*/
 
   .ourchurch-container {
-    padding: 80px;
+    padding: 64px 0;
   }
 
   .options-container {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    max-width: 1170px;
+    margin: auto;
+    gap: 48px;
   }
 
   .ourchurch-container h2 {
@@ -565,12 +566,8 @@ OUR FOUNDATIONS
 
   .container-item {
     padding: 24px;
-    margin: 0;
-    width: 100%;
-  }
-
-  .container-item p {
-    font-size: 1.8rem;
+    margin: auto;
+    max-width: 300px;
   }
 
   /* GET IN TOUCH -------*/
