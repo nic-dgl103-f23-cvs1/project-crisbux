@@ -454,7 +454,54 @@ ABOUT US PAGE
 OUR FOUNDATIONS
 ==================== */
 
-/* WHY CHURCH OF CHRIST... -------*/
+/* TABLE -------*/
+
+.table-container {
+  overflow-x: auto;
+  padding: 16px;
+}
+
+table {
+  font-family: "Lato", sans-serif;
+}
+
+caption {
+  font-size: 2rem;
+  text-align: left;
+  padding: 16px 0;
+}
+
+td, th {
+  padding: 8px;
+}
+
+th {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  background-color: #424b5a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+td.merge {
+  text-align: center;
+  font-style: italic;
+}
+
+tfoot {
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+}
 
 /* ====================
 CONTACT
@@ -480,7 +527,7 @@ CONTACT
 }
 
 ::placeholder {
-  color:#adadad ;
+  color: #adadad;
   opacity: 1;
 }
 
@@ -520,12 +567,11 @@ textarea {
   font-size: 1.6rem;
 }
 
-
 input[type="text"],
 textarea {
   width: 100%;
   padding: 16px;
-  border: .3px solid #424b5a;
+  border: 0.3px solid #424b5a;
   border-radius: 4px;
   margin-top: 8px;
   margin-bottom: 16px;
@@ -535,7 +581,7 @@ textarea {
 input[type="email"] {
   width: 100%;
   padding: 16px;
-  border: .3px solid #424b5a;
+  border: 0.3px solid #424b5a;
   border-radius: 4px;
   margin-top: 8px;
   margin-bottom: 16px;
@@ -548,7 +594,7 @@ textarea {
 
 fieldset {
   margin-bottom: 16px;
-  border: .3px solid #424b5a;
+  border: 0.3px solid #424b5a;
 }
 
 .label-required {
@@ -556,7 +602,6 @@ fieldset {
   padding: 0 8px;
   color: red;
 }
-
 
 /* ============================================================
 
