@@ -456,12 +456,11 @@ OUR FOUNDATIONS
 
 /* Baptism -------*/
 
-
 .membership-container {
   display: flex;
   flex-direction: column;
   margin: 40px 0;
-  padding: 16px;
+  padding: 8px;
 }
 
 .membership-container h2{
@@ -489,24 +488,17 @@ OUR FOUNDATIONS
 
 .steps-container img {
   width: 100%;
-  padding: 16px;
+  padding: 16px 0;
 }
 
-/* -------
-.steps-container {
-  display: grid;
-  grid-template-columns: 2fr 2fr;
+.grid div h3 {
+  margin: 16px 0;
 }
 
-.steps-container .grid {
-  order: 1;
-  padding: 104px 56px;
-  gap: 16px;
-}
-*/
 .membership-container div p {
-  margin-bottom: 0;
+  margin-bottom: 24px;
 }
+
 
 
 /* TABLE -------*/
@@ -974,6 +966,28 @@ Large devices (laptops/desktops, 992px and up)
     color: white;
     padding: 16px 32px;
   }
+
+  /* ----------------
+FOUNDATIONS 
+Large devices (laptops/desktops, 992px and up) 
+------------------- */
+
+/* Baptism -------*/
+
+.steps-container {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 1170px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 16px;
+}
+
+
 
   /* watch out with this close... -------*/
 }
