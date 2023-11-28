@@ -454,6 +454,61 @@ ABOUT US PAGE
 OUR FOUNDATIONS
 ==================== */
 
+/* Baptism -------*/
+
+
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  padding: 16px;
+}
+
+.membership-container h2{
+  padding: 0 16px;
+}
+
+.membership-container div {
+  padding: 0 16px;
+  margin: 16px 0;
+}
+
+.membership-container .grid {
+  margin: 0;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.membership-container .grid div {
+  margin: 16px 0;
+  padding: 16px 0;
+}
+
+.steps-container img {
+  width: 100%;
+  padding: 16px;
+}
+
+/* -------
+.steps-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.steps-container .grid {
+  order: 1;
+  padding: 104px 56px;
+  gap: 16px;
+}
+*/
+.membership-container div p {
+  margin-bottom: 0;
+}
+
+
 /* TABLE -------*/
 
 .table-container {
