@@ -499,6 +499,29 @@ OUR FOUNDATIONS
   margin-bottom: 24px;
 }
 
+/* SALVATION CONTAINER -------*/
+
+.salvation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px 16px;
+}
+
+.salvation-container p {
+  line-height: 2.8rem;
+}
+
+.salvation-content h2 {
+  padding: 16px 0;
+  font-size: 3.2rem;
+}
+
+.verses-container p {
+  padding: 16px 0;
+  margin: 16px 0;
+}
+
 /* DIRECTORY CONTAINER -------*/
 
 .directory-container {
@@ -531,7 +554,7 @@ OUR FOUNDATIONS
 }
 
 table {
-  font-family: 'Hedvig Letters Sans', sans-serif;
+  font-family: "Hedvig Letters Sans", sans-serif;
   margin: 16px;
   background-color: white;
 }
@@ -588,7 +611,7 @@ CONTACT
   max-width: 800px;
   margin: 24px auto;
   color: #424b5a;
-  font-family: 'Hedvig Letters Sans', sans-serif;
+  font-family: "Hedvig Letters Sans", sans-serif;
 }
 
 .wrapper-form h2 {
@@ -664,6 +687,7 @@ fieldset {
   color: red;
 }
 
+/* CSS suggested by ChatGPT for add a hidden field -------*/
 .phoneField {
   display: none;
 }
@@ -679,7 +703,13 @@ fieldset {
 
 /* ============================================================
 
+
+
+
 Large devices (laptops/desktops, 992px and up) 
+
+
+
 
 ============================================================ */
 
@@ -1028,6 +1058,27 @@ Large devices (laptops/desktops, 992px and up)
   .baptism-content p {
     line-height: 3rem;
   }
+
+  /* Salvation -------*/
+
+  .salvation-container {
+    flex-direction: row;
+    max-width: 1170px;
+    margin: auto;
+    gap: 32px;
+  }
+
+  .salvation-content {
+    margin: 16px 32px;
+    width: 100%;
+  }
+
+  .verses-container {
+    padding: 0 32px;
+  }
+
+
+
 
   /* watch out with this close... -------*/
 }
