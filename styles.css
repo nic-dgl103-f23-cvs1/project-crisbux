@@ -523,6 +523,14 @@ OUR FOUNDATIONS
   margin: 16px 0;
 }
 
+.icon-with-text {
+  font-size: 1.6rem;
+}
+
+.fa-angle-double-right {
+  padding: 0 8px;
+}
+
 
 /* DIRECTORY CONTAINER -------*/
 
