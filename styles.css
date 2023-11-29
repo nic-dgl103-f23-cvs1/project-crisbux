@@ -505,11 +505,12 @@ OUR FOUNDATIONS
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding: 32px 16px;
+  padding: 16px;
 }
 
 .salvation-container p {
   line-height: 2.8rem;
+  margin-bottom: 32px;
 }
 
 .salvation-content h2 {
@@ -521,6 +522,7 @@ OUR FOUNDATIONS
   padding: 16px 0;
   margin: 16px 0;
 }
+
 
 /* DIRECTORY CONTAINER -------*/
 
@@ -1066,6 +1068,7 @@ Large devices (laptops/desktops, 992px and up)
     max-width: 1170px;
     margin: auto;
     gap: 32px;
+    padding-bottom: 48px;
   }
 
   .salvation-content {
@@ -1073,11 +1076,19 @@ Large devices (laptops/desktops, 992px and up)
     width: 100%;
   }
 
+  .salvation-content p {
+    margin-bottom: 16px;
+  }
+
   .verses-container {
     padding: 0 32px;
   }
 
+  .verses-container p {
+    font-style: italic;
+  }
 
+  
 
 
   /* watch out with this close... -------*/
