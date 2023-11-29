@@ -515,7 +515,7 @@ OUR FOUNDATIONS
 }
 
 .directory-container p {
-  margin: 16px 32px;
+  margin: 0 32px;
   font-size: 1.8rem;
   font-weight: 300;
   padding: 16px 0;
@@ -532,7 +532,7 @@ OUR FOUNDATIONS
 
 table {
   font-family: "Lato", sans-serif;
-  margin: 32px 16px;
+  margin: 16px;
   background-color: white;
 }
 
@@ -604,21 +604,7 @@ CONTACT
   opacity: 1;
 }
 
-/* Buttons -------
-
-input[type="reset"] {
-  color: #424b5a;
-  padding: 8px 32px;
-  border-radius: 4px;
-  border: 2px solid #424b5a;
-  cursor: pointer;
-}
-
-input[type="reset"]:hover {
-  background-color: #424b5a;
-  color: #ffffff;
-}
-*/
+/* Buttons -------*/
 
 input[type="submit"] {
   background-color: #424b5a;
