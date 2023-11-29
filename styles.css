@@ -531,7 +531,7 @@ OUR FOUNDATIONS
 }
 
 table {
-  font-family: "Lato", sans-serif;
+  font-family: 'Hedvig Letters Sans', sans-serif;
   margin: 16px;
   background-color: white;
 }
@@ -588,6 +588,7 @@ CONTACT
   max-width: 800px;
   margin: 24px auto;
   color: #424b5a;
+  font-family: 'Hedvig Letters Sans', sans-serif;
 }
 
 .wrapper-form h2 {
