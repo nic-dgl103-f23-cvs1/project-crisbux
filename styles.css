@@ -334,7 +334,7 @@ ABOUT US PAGE
   flex-direction: column;
   text-align: left;
   margin: 16px;
-  padding: 16px;
+  padding: 16px 0;
 }
 
 .why-container h1 {
@@ -359,7 +359,7 @@ ABOUT US PAGE
 
 .denomination-container {
   background-color: #e7f5fe;
-  padding: 48px 32px;
+  padding: 48px 16px;
 }
 
 .denomination-content {
@@ -385,7 +385,7 @@ ABOUT US PAGE
 
 .worship-container {
   margin: auto;
-  padding: 48px 32px;
+  padding: 48px 16px;
 }
 
 .worship-content {
@@ -422,7 +422,7 @@ ABOUT US PAGE
   flex-direction: column;
   background-color: #e7f5fe;
   text-align: center;
-  padding: 32px 0;
+  padding: 32px 24px;
 }
 
 .members-container h2 {
@@ -430,10 +430,10 @@ ABOUT US PAGE
   color: #424b5a;
 }
 
-.members-container p {
-  margin: 16px 32px;
-  font-weight: 300;
-  color: #a1aeb7;
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 16px;
 }
 
 .members-container a {
@@ -459,16 +459,14 @@ OUR FOUNDATIONS
 .membership-container {
   display: flex;
   flex-direction: column;
-  margin: 40px 0;
-  padding: 8px;
+  margin: 40px 16px;
 }
 
-.membership-container h2{
-  padding: 0 16px;
+.membership-container h1 {
+  text-align: center;
 }
 
 .membership-container div {
-  padding: 0 16px;
   margin: 16px 0;
 }
 
@@ -493,23 +491,49 @@ OUR FOUNDATIONS
 
 .grid div h3 {
   margin: 16px 0;
+  font-size: 2.4rem;
+  color: #505d68;
 }
 
 .membership-container div p {
   margin-bottom: 24px;
 }
 
+/* DIRECTORY CONTAINER -------*/
 
+.directory-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7f5fe;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.directory-container h2 {
+  margin: 16px;
+  color: #424b5a;
+}
+
+.directory-container p {
+  margin: 16px 32px;
+  font-size: 1.8rem;
+  font-weight: 300;
+  padding: 16px 0;
+  color: #a1aeb7;
+}
 
 /* TABLE -------*/
 
 .table-container {
   overflow-x: auto;
-  padding: 16px;
+  max-width: 1170px;
+  margin: auto;
 }
 
 table {
   font-family: "Lato", sans-serif;
+  margin: 32px 16px;
+  background-color: white;
 }
 
 caption {
@@ -519,7 +543,8 @@ caption {
   text-align: center;
 }
 
-td, th {
+td,
+th {
   padding: 8px;
 }
 
@@ -601,6 +626,7 @@ input[type="submit"] {
   padding: 8px 32px;
   border-radius: 4px;
   cursor: pointer;
+  margin: 16px 0;
 }
 
 input[type="submit"]:hover {
@@ -649,6 +675,19 @@ fieldset {
   font-size: 1.4rem;
   padding: 0 8px;
   color: red;
+}
+
+.phoneField {
+  display: none;
+}
+
+#contactPhone:checked ~ .phoneField {
+  display: block;
+}
+
+#contactPhone {
+  margin: 16px;
+  align-items: center;
 }
 
 /* ============================================================
@@ -972,22 +1011,36 @@ FOUNDATIONS
 Large devices (laptops/desktops, 992px and up) 
 ------------------- */
 
-/* Baptism -------*/
+  /* Baptism -------*/
 
-.steps-container {
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 1170px;
-  margin: auto;
-}
+  .membership-container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 48px;
+  }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  gap: 16px;
-}
+  .membership-container h1 {
+    text-align: center;
+    padding: 32px 0;
+  }
 
+  .membership-container div {
+    padding: 0;
+  }
 
+  .steps-container img {
+    width: 50%;
+  }
+
+  .baptism-content {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+  }
+
+  .baptism-content p {
+    line-height: 3rem;
+  }
 
   /* watch out with this close... -------*/
 }
