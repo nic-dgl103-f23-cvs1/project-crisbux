@@ -362,20 +362,45 @@ ABOUT US PAGE
   padding: 48px 16px;
 }
 
-.denomination-content {
+.denomination-content1 {
   display: flex;
   flex-direction: column;
+  max-width: 1170px;
+  margin:auto;
 }
 
-.denomination-content h2 {
+.denomination-content1 h2 {
   margin: 16px;
 }
 
-.denomination-content img {
+.denomination-content1 img {
   width: 100%;
 }
 
-.denomination-content p {
+.denomination-content1 p {
+  margin: 16px 0;
+  font-weight: 300;
+  text-align: left;
+}
+
+
+
+.denomination-content2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  margin:auto;
+}
+
+.denomination-content2 h2 {
+  margin: 16px;
+}
+
+.denomination-content2 img {
+  width: 100%;
+}
+
+.denomination-content2 p {
   margin: 16px 0;
   font-weight: 300;
   text-align: left;
@@ -960,11 +985,26 @@ Large devices (laptops/desktops, 992px and up)
     margin: 16px 0;
   }
 
-  .denomination-content {
+  .denomination-content1 {
     flex-direction: row;
     gap: 32px;
     padding: 32px 48px;
   }
+
+  .denomination-content2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .denomination-content2 img {
+    width: 50%;
+    margin: 32px 0;
+  }
+
+  .denomination-content2 p {
+    margin: 16px 32px;
+  }
+
 
   /* WORSHIP ITEMS -------*/
 
