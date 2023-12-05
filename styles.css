@@ -989,16 +989,18 @@ Large devices (laptops/desktops, 992px and up)
     flex-direction: row;
     gap: 32px;
     padding: 32px 48px;
+    align-items: center;
   }
 
   .denomination-content2 {
     display: flex;
     flex-direction: row-reverse;
+    padding: 32px 0;
+    align-items: center;
   }
   
   .denomination-content2 img {
     width: 50%;
-    margin: 32px 0;
   }
 
   .denomination-content2 p {
