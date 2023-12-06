@@ -16,7 +16,7 @@ body {
 }
 
 body p {
-  color: #8e979e;
+  color: #656565;
   line-height: 2.4rem;
   font-weight: 300;
 }
@@ -227,13 +227,12 @@ nav a:hover {
 
 .contact-container h2 {
   margin: 16px;
-  color: #424b5a;
+  color: #29344B;
 }
 
 .contact-container p {
   margin: 16px 32px;
   font-weight: 300;
-  color: #a1aeb7;
 }
 
 .contact-container a {
@@ -255,9 +254,10 @@ nav a:hover {
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #5ca0d3;
+  background-color: #1E5174;
   padding: 48px 0 8px;
   text-align: left;
+  font-weight: 400;
 }
 
 .images-container {
@@ -282,7 +282,7 @@ footer li {
 }
 
 footer h4 {
-  color: #424b5a;
+  color: white;
   font-size: 1.6rem;
   margin-bottom: 8px;
 }
@@ -293,13 +293,13 @@ footer h4 {
 
 .info-container p {
   margin-bottom: 24px;
-  font-weight: 300;
   color: #ffffff;
+  font-weight: 300;
 }
 
 .footer-content a {
   color: white;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .footer-content a:hover {
@@ -383,8 +383,6 @@ ABOUT US PAGE
   text-align: left;
 }
 
-
-
 .denomination-content2 {
   display: flex;
   flex-direction: column;
@@ -435,7 +433,7 @@ ABOUT US PAGE
 
 .statements {
   margin: 24px;
-  color: #a1aeb7;
+  color: #424b5a;
   font-weight: 300;
   line-height: 2.8rem;
 }
@@ -577,7 +575,6 @@ OUR FOUNDATIONS
   font-size: 1.8rem;
   font-weight: 300;
   padding: 16px 0;
-  color: #a1aeb7;
 }
 
 /* TABLE -------*/
@@ -719,7 +716,7 @@ fieldset {
 .label-required {
   font-size: 1.4rem;
   padding: 0 8px;
-  color: red;
+  color: rgb(146, 2, 2);
 }
 
 /* CSS suggested by ChatGPT for add a hidden field -------*/
@@ -1039,8 +1036,6 @@ Large devices (laptops/desktops, 992px and up)
 
   .statements {
     margin: 24px;
-    color: #a1aeb7;
-    font-weight: 300;
     line-height: 2.8rem;
   }
 
@@ -1063,7 +1058,6 @@ Large devices (laptops/desktops, 992px and up)
     margin: 16px 32px;
     padding: 32px 128px;
     font-weight: 300;
-    color: #a1aeb7;
   }
 
   .members-container a {
